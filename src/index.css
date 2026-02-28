@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Satoshi', sans-serif;
+  --color-primary: #715852;
+  --color-accent: #715852;
+  --color-bg: #F4EBE4;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
